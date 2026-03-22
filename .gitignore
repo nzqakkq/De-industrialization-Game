@@ -9,5 +9,8 @@
 # Visual Studio / IDE
 *.csproj
 *.sln
+*.slnx
+*.vsconfig
 *.userprefs
 .vs/
+.vscode/

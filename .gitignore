@@ -12,5 +12,6 @@
 *.slnx
 *.vsconfig
 *.userprefs
+*blob
 .vs/
 .vscode/

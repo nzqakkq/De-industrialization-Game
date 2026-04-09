@@ -6,7 +6,7 @@ public class CharacterMovement : MonoBehaviour
 {
     //basic movement
     [SerializeField] CharacterController controller; //references PLayerController's Character Controller
-    [SerializeField] private float baseSpeed = 15f; //base movement speed without modifiers
+    [SerializeField] private float baseSpeed = 30f; //base movement speed without modifiers
 
     //gravity
     private Vector3 fallingVelocity;
@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     private bool isGrounded;
 
     //jump
-    [SerializeField] private float jumpHeight = 5f;
+    [SerializeField] private float jumpHeight = 10f;
 
     //dash
     [SerializeField] private float dashPower = 50f;
@@ -38,13 +38,15 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         groundMask = LayerMask.GetMask("Ground");
+        controller = GetComponent<CharacterController>();
     }
     // Update is called once per frame
     void Update()
     {
         //checks if an invisible sphere at the position of groundCheck with radius checkRadius is touching ground
         isGrounded = Physics.CheckSphere(groundCheck.position, checkRadius, groundMask);
-        if (isGrounded && fallingVelocity.y < 0) {
+        if (isGrounded && fallingVelocity.y < 0)
+        {
             //a small value will force player to stick to ground even if sphere triggers before
             fallingVelocity.y = -1f;
         }
@@ -59,7 +61,8 @@ public class CharacterMovement : MonoBehaviour
         controller.Move(move);
 
         //check if jump key is pressed down and player on floor, if yes then jump a set distance using v = sqrt(-2gh)
-        if (Input.GetButtonDown("Jump") && isGrounded) {
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
             fallingVelocity.y = Mathf.Sqrt(-2f * gravity * jumpHeight);
         }
 
@@ -67,14 +70,17 @@ public class CharacterMovement : MonoBehaviour
         fallingVelocity.y += gravity * Time.deltaTime;
 
         //handle dash cooldown; if dash is possible, then add to dashVector. Also find last dash direction and save it.
-        if (Input.GetButtonDown("Dash") && timeSinceDash >= dashCooldown) {
+        if (Input.GetButtonDown("Dash") && timeSinceDash >= dashCooldown)
+        {
             Debug.Log("Dash successful");
             timeSinceDash = 0f;
             dashDirectionNormalized = transform.forward * forwardMove + transform.right * sideMove;
             dashDirectionNormalized = dashDirectionNormalized.normalized;
             dashVector += dashDirectionNormalized * dashPower * Time.deltaTime;
             Debug.Log("Dash vector is " + dashVector);
-        } else {
+        }
+        else
+        {
             timeSinceDash += Time.deltaTime;
         }
 

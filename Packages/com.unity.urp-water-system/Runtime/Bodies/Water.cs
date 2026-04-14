@@ -216,10 +216,11 @@ namespace WaterSystem
         // method to create and setup the WaterMeshSettings with the provided WaterShape
         private void CreateMeshSettings()
         {
+            int tileSize = GetTileSize(GetShapeSize());
             _meshSettings = new MeshSurface.WaterMeshSettings
             {
-                maxWaveHeight = 10f, // TODO - hardcoded values, these should be calculated based on the water settings?
-                maxDivisions = 5, // TODO - hardcoded values, these should be settings in project settings
+                maxWaveHeight = tileSize * 0.5f , // TODO - hardcoded values, these should be calculated based on the water settings?
+                maxDivisions = 0, // TODO - hardcoded values, these should be settings in project settings
                 density = 0.15f
             };
 
@@ -228,7 +229,7 @@ namespace WaterSystem
                 case WaterShapeType.Infinite:
                     _meshSettings.infinite = true;
                     _meshSettings.size = new float2(settings.distanceBlend * 2f, 0f);
-                    _meshSettings.baseTileSize = 20;
+                    _meshSettings.baseTileSize = GetTileSize(shape.size);
                     break;
                 case WaterShapeType.Plane:
                     _meshSettings.infinite = false;
@@ -245,6 +246,16 @@ namespace WaterSystem
             }
         }
 
+        private float2 GetShapeSize()
+        {
+            return shape.type switch
+            {
+                WaterShapeType.Plane   => shape.size,
+                WaterShapeType.Circle  => new float2(shape.Radius * 2f, shape.Radius * 2f),
+                _                      => new float2(settings.distanceBlend * 2f, settings.distanceBlend * 2f)
+            };
+        }
+
         /// <summary>
         /// Get the tile size based on the shortest side of a plane
         /// </summary>
@@ -252,11 +263,11 @@ namespace WaterSystem
         /// <returns>The tile size in world units</returns>
         private int GetTileSize(float2 area)
         {
-            int tileSize;
-            // find a tile size that can fit into the area where the shortest side is at least 4 tiles
-            tileSize = area.x < area.y ? Mathf.Clamp((int)area.x / 4, 1, 20) : Mathf.Clamp((int)area.y / 4, 1, 20);
-            // return a clamped tile size between 1 and 20
-            return Mathf.Clamp(tileSize, 1, 20);
+                int t = Mathf.Max(Mathf.CeilToInt(Mathf.Sqrt(area.x * area.y / 4096f)), 1);
+                // ceil() rounding can push tile count over 2048, so verify and increment until safe
+                while (Mathf.CeilToInt(area.x / t) * Mathf.CeilToInt(area.y / t) > 4096)
+                    t++;
+                return t;
         }
 
         #endregion

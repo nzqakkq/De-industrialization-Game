@@ -38,13 +38,13 @@ namespace WaterSystem.Rendering
         private void CreateArrays()
         {
             FrustumPlanes = new NativeArray<float4>(6, Allocator.Persistent);
-            baseTilesA = new NativeList<WaterTile>(2048, Allocator.Persistent);
-            baseTilesB = new NativeList<WaterTile>(2048, Allocator.Persistent);
+            baseTilesA = new NativeList<WaterTile>(4096, Allocator.Persistent);
+            baseTilesB = new NativeList<WaterTile>(4096, Allocator.Persistent);
             WaterTiles = new NativeList<WaterTile>(8192, Allocator.Persistent);
             TileMatrices = new NativeArray<float4x4>(8192, Allocator.Persistent);
             TileCount = new NativeArray<int>(iterations + 1, Allocator.Persistent);
         }
-        
+
         // funciton to dispose of native arrays if they are created and recreate them
         public void Recreate()
         {
@@ -268,7 +268,7 @@ namespace WaterSystem.Rendering
                     zCount = xCount;
                     zSize = xSize;
                 }
-                
+
                 var estCount = xCount * zCount;
 
                 if (estCount > Output.Capacity)

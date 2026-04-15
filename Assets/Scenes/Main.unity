@@ -119,726 +119,111 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &4685311
-GameObject:
+--- !u!1001 &277118739
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4685312}
-  - component: {fileID: 4685313}
-  m_Layer: 0
-  m_Name: River (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4685312
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4685311}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5985.5723, y: 285.37247, z: 970}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4685313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4685311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &81510795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 81510796}
-  - component: {fileID: 81510797}
-  m_Layer: 0
-  m_Name: River (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &81510796
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81510795}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5984, y: 285.37247, z: 176}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &81510797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81510795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &133167773
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 133167774}
-  - component: {fileID: 133167775}
-  m_Layer: 0
-  m_Name: River (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &133167774
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133167773}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 972.41406, y: 285.37247, z: 320}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &133167775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133167773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &234482689
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 234482690}
-  - component: {fileID: 234482691}
-  m_Layer: 0
-  m_Name: River (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &234482690
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234482689}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3982, y: 285.37247, z: -628.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &234482691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234482689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &288014257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 288014258}
-  - component: {fileID: 288014259}
-  m_Layer: 0
-  m_Name: River (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &288014258
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288014257}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.986328, y: 285.37247, z: -141.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &288014259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288014257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7372774
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67559016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -85
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      propertyPath: m_Name
+      value: Dam
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5030806413086238896, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1881212537}
+    - targetCorrespondingSourceObject: {fileID: -7040860779393162469, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 478634165}
+    - targetCorrespondingSourceObject: {fileID: -8547889594363766272, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 899875074}
+    - targetCorrespondingSourceObject: {fileID: -5863393581195760670, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1095191181}
+    - targetCorrespondingSourceObject: {fileID: -418417267674014989, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1735485296}
+    - targetCorrespondingSourceObject: {fileID: -1890058157078510908, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 575761287}
+    - targetCorrespondingSourceObject: {fileID: 4428652666918041664, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1967139348}
+    - targetCorrespondingSourceObject: {fileID: 8294611156310574486, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1754911041}
+    - targetCorrespondingSourceObject: {fileID: 9180591120226409783, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1032785251}
+    - targetCorrespondingSourceObject: {fileID: -4675607411161810814, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 680524097}
+    - targetCorrespondingSourceObject: {fileID: 6568721000603034867, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1012150791}
+    - targetCorrespondingSourceObject: {fileID: 7812195308775918637, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1606504544}
+  m_SourcePrefab: {fileID: 100100000, guid: 7c758845d51e61a519593fac4359a650, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +468,7 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 14547, y: 4413, z: 5364}
+  m_LocalPosition: {x: -44791, y: 24281, z: -48145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1118,7 +503,32 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &825778681
+--- !u!1 &478634160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7040860779393162469, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &478634165
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478634160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &555133735
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1126,37 +536,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 825778682}
-  - component: {fileID: 825778683}
+  - component: {fileID: 555133737}
+  - component: {fileID: 555133736}
   m_Layer: 0
-  m_Name: River (12)
+  m_Name: GreenRiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &825778682
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825778681}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4985, y: 285.37247, z: -630.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &825778683
+--- !u!114 &555133736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825778681}
+  m_GameObject: {fileID: 555133735}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
@@ -1164,20 +559,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
   bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
+    m_Extent: {x: 5500, y: 5, z: 8500}
   shape:
     type: 1
     size:
-      x: 1000
-      y: 800
+      x: 11000
+      y: 17000
     range:
-      x: 4
-      y: 4
+      x: 1000
+      y: 1000
   settings:
     distanceBlend: 1000
     waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
+    absorptionColor: {r: 0.03619563, g: 0.9766805, b: 0.18372266, a: 1}
+    scatteringColor: {r: 0.17647076, g: 1, b: 0, a: 1}
     cubemapTexture: {fileID: 0}
     waveFoamProfile:
       serializedVersion: 2
@@ -1252,211 +647,131 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     microWaveIntensity: 0
-    foamIntensity: 0.75
+    foamIntensity: 1
   gerstnerData:
     waveType: 0
     basicWaves:
       waveCount: 12
-      amplitude: 200
+      amplitude: 25
       direction: 0
       wavelength: 1000
       seed: 123456
     waves: []
---- !u!1 &938830477
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 938830478}
-  - component: {fileID: 938830479}
-  m_Layer: 0
-  m_Name: River (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &938830478
+--- !u!4 &555133737
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938830477}
+  m_GameObject: {fileID: 555133735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.986328, y: 285.37247, z: 659}
+  m_LocalPosition: {x: 19496, y: 608, z: 9512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &938830479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938830477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1003095184
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1003095185}
-  m_Layer: 0
-  m_Name: River
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1003095185
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003095184}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6435.286, y: 503.62753, z: 2290.3792}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1027830771}
-  - {fileID: 1776915484}
-  - {fileID: 288014258}
-  - {fileID: 938830478}
-  - {fileID: 1965951438}
-  - {fileID: 133167774}
-  - {fileID: 1974106745}
-  - {fileID: 234482690}
-  - {fileID: 1467267326}
-  - {fileID: 825778682}
-  - {fileID: 1070136427}
-  - {fileID: 81510796}
-  - {fileID: 1082447303}
-  - {fileID: 1524274319}
-  - {fileID: 4685312}
-  - {fileID: 1847941083}
-  - {fileID: 1031071262}
-  - {fileID: 1450280648}
-  - {fileID: 2035477467}
-  - {fileID: 1969540302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &575761282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1890058157078510908, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &575761287
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575761282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &680524092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4675607411161810814, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &680524097
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680524092}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &899875069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8547889594363766272, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &899875074
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899875069}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1012150786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6568721000603034867, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1012150791
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012150786}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1 &1027830769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,15 +803,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
   bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
+    m_Extent: {x: 5000, y: 5, z: 1750}
   shape:
     type: 1
     size:
-      x: 1000
-      y: 800
+      x: 10000
+      y: 3500
     range:
-      x: 4
-      y: 4
+      x: 1000
+      y: 1000
   settings:
     distanceBlend: 1000
     waterMaxVisibility: 900
@@ -1576,12 +891,12 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     microWaveIntensity: 0
-    foamIntensity: 0.75
+    foamIntensity: 0.13
   gerstnerData:
     waveType: 0
     basicWaves:
       waveCount: 12
-      amplitude: 200
+      amplitude: 100
       direction: 0
       wavelength: 1000
       seed: 123456
@@ -1595,11 +910,11 @@ Transform:
   m_GameObject: {fileID: 1027830769}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1026.2861, y: 285.37247, z: -141.37915}
+  m_LocalPosition: {x: 8854.286, y: 843, z: 2895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1003095185}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029687920
 GameObject:
@@ -1632,438 +947,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1321541699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1031071261
+--- !u!1 &1032785246 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 9180591120226409783, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1032785251
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1031071262}
-  - component: {fileID: 1031071263}
-  m_Layer: 0
-  m_Name: River (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1031071262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031071261}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6987, y: 285.37247, z: 1772}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1031071263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031071261}
+  m_GameObject: {fileID: 1032785246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1070136426
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1095191176 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: -5863393581195760670, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1095191181
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1070136427}
-  - component: {fileID: 1070136428}
-  m_Layer: 0
-  m_Name: River (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1070136427
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070136426}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4985, y: 285.37247, z: 174}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1070136428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070136426}
+  m_GameObject: {fileID: 1095191176}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1082447302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1082447303}
-  - component: {fileID: 1082447304}
-  m_Layer: 0
-  m_Name: River (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1082447303
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082447302}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4987, y: 285.37247, z: 970}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1082447304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082447302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1 &1194978234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,7 +1139,7 @@ Transform:
   m_GameObject: {fileID: 1321541696}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8033, y: 1071, z: 906}
+  m_LocalPosition: {x: 13557, y: 1071, z: 2195}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2236,1302 +1169,131 @@ MonoBehaviour:
   dashPower: 200
   dashDeceleration: -5
   dashCooldown: 2
---- !u!1 &1450280647
+--- !u!1 &1606504539 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 7812195308775918637, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1606504544
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1450280648}
-  - component: {fileID: 1450280649}
-  m_Layer: 0
-  m_Name: River (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1450280648
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450280647}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1971.7139, y: 285.37247, z: 324}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1450280649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450280647}
+  m_GameObject: {fileID: 1606504539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1467267325
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1735485291 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: -418417267674014989, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1735485296
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1467267326}
-  - component: {fileID: 1467267327}
-  m_Layer: 0
-  m_Name: River (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1467267326
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467267325}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3982, y: 285.37247, z: 176}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1467267327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467267325}
+  m_GameObject: {fileID: 1735485291}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1524274318
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1754911036 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 8294611156310574486, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1754911041
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1524274319}
-  - component: {fileID: 1524274320}
-  m_Layer: 0
-  m_Name: River (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1524274319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524274318}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5985, y: 285.37247, z: 1772}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1524274320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524274318}
+  m_GameObject: {fileID: 1754911036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1776915483
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1881212532 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 5030806413086238896, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1881212537
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1776915484}
-  - component: {fileID: 1776915485}
-  m_Layer: 0
-  m_Name: River (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1776915484
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776915483}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1026.2861, y: 285.37247, z: 666}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1776915485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776915483}
+  m_GameObject: {fileID: 1881212532}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1847941082
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!1 &1967139343 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 4428652666918041664, guid: 7c758845d51e61a519593fac4359a650, type: 3}
+  m_PrefabInstance: {fileID: 277118739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1967139348
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1847941083}
-  - component: {fileID: 1847941084}
-  m_Layer: 0
-  m_Name: River (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1847941083
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847941082}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6987, y: 285.37247, z: 972}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1847941084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847941082}
+  m_GameObject: {fileID: 1967139343}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1965951437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1965951438}
-  - component: {fileID: 1965951439}
-  m_Layer: 0
-  m_Name: River (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1965951438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965951437}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 972.41406, y: 285.37247, z: -480.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1965951439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965951437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1969540301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1969540302}
-  - component: {fileID: 1969540303}
-  m_Layer: 0
-  m_Name: River (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1969540302
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969540301}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2982, y: 285.37247, z: 322}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1969540303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969540301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &1974106744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1974106745}
-  - component: {fileID: 1974106746}
-  m_Layer: 0
-  m_Name: River (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1974106745
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974106744}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1971.7139, y: 285.37247, z: -480.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1974106746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974106744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
---- !u!1 &2035477466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2035477467}
-  - component: {fileID: 2035477468}
-  m_Layer: 0
-  m_Name: River (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2035477467
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035477466}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2982, y: 285.37247, z: -482.37915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1003095185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2035477468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035477466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ad6ac2f7224060bb75d1492b05171f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
-  bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 500, y: 5, z: 400}
-  shape:
-    type: 1
-    size:
-      x: 1000
-      y: 800
-    range:
-      x: 4
-      y: 4
-  settings:
-    distanceBlend: 1000
-    waterMaxVisibility: 900
-    absorptionColor: {r: 0, g: 0.14901961, b: 0.2, a: 1}
-    scatteringColor: {r: 0, g: 0.15, b: 0.2, a: 1}
-    cubemapTexture: {fileID: 0}
-    waveFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    waveDepthProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: -1.0204082
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.98
-        value: 0
-        inSlope: -1.0204082
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    shoreFoamProfile:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    microWaveIntensity: 0
-    foamIntensity: 0.75
-  gerstnerData:
-    waveType: 0
-    basicWaves:
-      waveCount: 12
-      amplitude: 200
-      direction: 0
-      wavelength: 1000
-      seed: 123456
-    waves: []
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1 &2097168755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,4 +1394,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 2097168758}
   - {fileID: 1321541699}
-  - {fileID: 1003095185}
+  - {fileID: 1027830771}
+  - {fileID: 555133737}
+  - {fileID: 277118739}

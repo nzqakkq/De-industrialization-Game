@@ -72,12 +72,10 @@ public class CharacterMovement : MonoBehaviour
         //handle dash cooldown; if dash is possible, then add to dashVector. Also find last dash direction and save it.
         if (Input.GetButtonDown("Dash") && timeSinceDash >= dashCooldown)
         {
-            Debug.Log("Dash successful");
             timeSinceDash = 0f;
             dashDirectionNormalized = transform.forward * forwardMove + transform.right * sideMove;
             dashDirectionNormalized = dashDirectionNormalized.normalized;
             dashVector += dashDirectionNormalized * dashPower * Time.deltaTime;
-            Debug.Log("Dash vector is " + dashVector);
         }
         else
         {

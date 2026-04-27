@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -26,8 +27,11 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float dashDeceleration = -1f;
     private Vector3 dashVector;
     private Vector3 dashDirectionNormalized;
-    [SerializeField] private float dashCooldown = 2f;
-    private float timeSinceDash = 0f;
+    [SerializeField] public float dashCooldown = 5f;
+    public float timeSinceDash = 0f;
+
+    //health
+    public PlayerHealth playerHealth;
 
     //TO DO
     //Wall climb
@@ -49,6 +53,11 @@ public class CharacterMovement : MonoBehaviour
         {
             //a small value will force player to stick to ground even if sphere triggers before
             fallingVelocity.y = -1f;
+        }
+
+        if (transform.position.y < 850)
+        {
+            playerHealth.KillPlayer();
         }
 
         //getting input from player over movement controls

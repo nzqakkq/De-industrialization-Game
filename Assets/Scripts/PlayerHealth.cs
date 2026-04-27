@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        currentHealth -= malaiseRate;
+        currentHealth -= malaiseRate * Time.deltaTime;
         healthBar.SetHealth(Mathf.Max(currentHealth, 0));
         
         if (currentHealth <= 0)

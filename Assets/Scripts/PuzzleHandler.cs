@@ -94,7 +94,6 @@ public class PuzzleHandler : MonoBehaviour
         mouseScript.enabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         puzzleCanvas.SetActive(false);
-        SceneManager.LoadScene("Scenes/Puzzle Complete");
     }
 
     public void OnPauseClick(Button pauseButton)
@@ -121,6 +120,7 @@ public class PuzzleHandler : MonoBehaviour
         if (isComplete) {
             Debug.Log("You win!");
             exitPuzzle();
+            SceneManager.LoadScene("Scenes/Puzzle Complete");
         }
     }
 }

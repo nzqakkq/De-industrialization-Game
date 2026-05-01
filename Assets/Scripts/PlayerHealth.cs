@@ -17,8 +17,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= malaiseRate * Time.deltaTime;
         healthBar.SetHealth(Mathf.Max(currentHealth, 0));
-        
-        if (currentHealth <= 0)
+
+        if (currentHealth <= 0 || transform.position.y < 840)
         {
             KillPlayer();
         }

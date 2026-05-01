@@ -444,7 +444,7 @@ MonoBehaviour:
     type: 1
     size:
       x: 25000
-      y: 3500
+      y: 3700
     range:
       x: 1000
       y: 1000
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
   bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 1000, y: 5, z: 5000}
+    m_Extent: {x: 1250, y: 5, z: 5000}
   shape:
     type: 1
     size:

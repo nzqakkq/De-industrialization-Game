@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PuzzleHandler : MonoBehaviour
 {
@@ -119,6 +120,7 @@ public class PuzzleHandler : MonoBehaviour
         if (isComplete) {
             Debug.Log("You win!");
             exitPuzzle();
+            SceneManager.LoadScene("Scenes/Puzzle Complete");
         }
     }
 }

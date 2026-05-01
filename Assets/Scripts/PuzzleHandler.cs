@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PuzzleHandler : MonoBehaviour
 {
@@ -93,6 +94,7 @@ public class PuzzleHandler : MonoBehaviour
         mouseScript.enabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         puzzleCanvas.SetActive(false);
+        SceneManager.LoadScene("Scenes/Puzzle Complete");
     }
 
     public void OnPauseClick(Button pauseButton)

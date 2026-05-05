@@ -1874,31 +1874,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2835155165795581410, guid: eac2cbc77bcfab54ab59ff3e6614ab44, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5815205346716178719, guid: eac2cbc77bcfab54ab59ff3e6614ab44, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6720107752295951746}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac2cbc77bcfab54ab59ff3e6614ab44, type: 3}
---- !u!1 &6720107752295951745 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5815205346716178719, guid: eac2cbc77bcfab54ab59ff3e6614ab44, type: 3}
-  m_PrefabInstance: {fileID: 6720107752295951744}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6720107752295951746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6720107752295951745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd567f8479922ca749f378542b780080, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadAcrossScenes
-  gameObject: {fileID: 6720107752295951745}
 --- !u!1001 &7471884094970328895
 PrefabInstance:
   m_ObjectHideFlags: 0

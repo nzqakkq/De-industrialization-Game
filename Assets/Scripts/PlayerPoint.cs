@@ -3,6 +3,10 @@ using UnityEngine;
 public class PlayerPoint : MonoBehaviour
 {
     private float currentPoint;
+    public GameObject credits;
+    public GameObject UI;
+    public PlayerHealth playerHealth;
+    public CharacterMovement characterMovement;
 
     private void Start()
     {
@@ -20,7 +24,11 @@ public class PlayerPoint : MonoBehaviour
     {
         if (currentPoint == 2)
         {
-            // handle win here
+            // Pause all movement and malaise, turn off UI and activate credits
+            characterMovement.enabled = false;
+            playerHealth.malaiseRate = 0f;
+            UI.SetActive(false);
+            credits.SetActive(true);
         }
         ;
     }

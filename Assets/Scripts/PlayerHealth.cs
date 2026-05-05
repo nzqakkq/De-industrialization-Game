@@ -4,8 +4,12 @@ public class PlayerHealth : MonoBehaviour
 {
     public HealthBar healthBar;
     public int maxHealth = 100;
-    public float malaiseRate = 0.1f;
+    public float malaiseRate = 0.3f;
     private float currentHealth;
+
+    public MouseRotate mouseScript;
+    public CharacterMovement movementScript;
+    public GameObject deathCanvas;
 
     private void Start()
     {
@@ -33,5 +37,10 @@ public class PlayerHealth : MonoBehaviour
         // Sets current health to 0
         currentHealth = 0;
         healthBar.SetHealth(currentHealth);
+
+        movementScript.enabled = false;
+        mouseScript.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        deathCanvas.SetActive(true);
     }
 }

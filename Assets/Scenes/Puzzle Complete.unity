@@ -25,8 +25,8 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d7a7cbd7f18013ac09d0c14e2d7b8a79, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: WaterSystem::WaterSystem.Water
   bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 3375, y: 5, z: 750}
+    m_Extent: {x: 1000, y: 5, z: 2750}
   shape:
     type: 1
     size:

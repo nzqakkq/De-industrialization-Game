@@ -55,11 +55,6 @@ public class CharacterMovement : MonoBehaviour
             fallingVelocity.y = -1f;
         }
 
-        if (transform.position.y < 850)
-        {
-            playerHealth.KillPlayer();
-        }
-
         //getting input from player over movement controls
         float sideMove = Input.GetAxis("Horizontal");
         float forwardMove = Input.GetAxis("Vertical");

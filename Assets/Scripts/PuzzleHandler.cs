@@ -8,8 +8,8 @@ public class PuzzleHandler : MonoBehaviour
     public Button emptyButton;
 
     public CharacterMovement movementScript;
+    public PlayerPoint playerPoint;
     public MouseRotate mouseScript;
-    public PuzzleInteract puzzleInteract;
     public GameObject puzzleCanvas;
 
     private void Start()
@@ -47,7 +47,7 @@ public class PuzzleHandler : MonoBehaviour
         int clickedIndex = clickedButton.transform.GetSiblingIndex();
 
         //if the clicked button is adjacent to an empty one, swap their indices
-        if (IsAdjacent(emptyIndex,clickedIndex))
+        if (IsAdjacent(emptyIndex, clickedIndex))
         {
             clickedButton.transform.SetSiblingIndex(emptyIndex);
             emptyButton.transform.SetSiblingIndex(clickedIndex);
@@ -97,9 +97,9 @@ public class PuzzleHandler : MonoBehaviour
     }
 
     public void OnPauseClick(Button pauseButton)
-        {
-            exitPuzzle();
-        }
+    {
+        exitPuzzle();
+    }
 
     public void CheckWin()
     {
@@ -117,9 +117,10 @@ public class PuzzleHandler : MonoBehaviour
             }
         }
 
-        if (isComplete) {
-            Debug.Log("You win!");
+        if (isComplete)
+        {
             exitPuzzle();
+            playerPoint.AddPoint();
             SceneManager.LoadScene("Scenes/Puzzle Complete");
         }
     }

@@ -33,11 +33,6 @@ public class CharacterMovement : MonoBehaviour
     //health
     public PlayerHealth playerHealth;
 
-    //TO DO
-    //Wall climb
-    //Wall jump
-    //Variable jump height
-
     // Start is called before the first frame update
     void Start()
     {
@@ -79,7 +74,7 @@ public class CharacterMovement : MonoBehaviour
             timeSinceDash = 0f;
             dashDirectionNormalized = transform.forward * forwardMove + transform.right * sideMove;
             dashDirectionNormalized = dashDirectionNormalized.normalized;
-            dashVector += dashDirectionNormalized * dashPower * Time.deltaTime;
+            dashVector += dashDirectionNormalized * dashPower;
         }
         else
         {
@@ -88,10 +83,10 @@ public class CharacterMovement : MonoBehaviour
 
         //apply the fallingVelocity and dashVector to the movement
         controller.Move(fallingVelocity * Time.deltaTime);
-        controller.Move(dashVector);
+        controller.Move(dashVector * Time.deltaTime);
 
         //decrease the dash velocity until it reaches 0 then stop
-        dashVector += dashDeceleration * dashDirectionNormalized * Time.deltaTime;
+        dashVector += dashDeceleration * dashDirectionNormalized;
         if (dashVector.normalized == -1 * dashDirectionNormalized) dashVector *= 0;
     }
 

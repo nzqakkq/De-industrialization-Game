@@ -1,13 +1,13 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
     public CharacterMovement movementScript;
     public MouseRotate mouseScript;
     public GameObject puzzleCanvas;
-
-    public float playerReach = 100f;
+    public GameObject factorySmoke;
+    public GameObject factoryBoxParticles;
+    public PlayerPoint playerPoint;
     Outline outline;
     public string message;
 
@@ -27,6 +27,16 @@ public class Interactable : MonoBehaviour
             //Enable the puzzle panel
             puzzleCanvas.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+        }
+        else if (tag == "Factory")
+        {
+            // Disable Factory Smoke and the box particles (since new scene is not loaded for this)
+            factorySmoke.SetActive(false);
+            factoryBoxParticles.SetActive(false);
+            this.GetComponent<Interactable>().enabled = false;
+            this.GetComponent<Outline>().enabled = false;
+
+            playerPoint.AddPoint();
         }
     }
 

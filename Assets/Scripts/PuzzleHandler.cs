@@ -8,9 +8,9 @@ public class PuzzleHandler : MonoBehaviour
     public Button emptyButton;
 
     public CharacterMovement movementScript;
+    public PlayerPoint playerPoint;
     public MouseRotate mouseScript;
     public GameObject puzzleCanvas;
-    public GameObject boxParticles;
 
     private void Start()
     {
@@ -119,10 +119,9 @@ public class PuzzleHandler : MonoBehaviour
 
         if (isComplete)
         {
-            Debug.Log("You win!");
             exitPuzzle();
+            playerPoint.AddPoint();
             SceneManager.LoadScene("Scenes/Puzzle Complete");
-            boxParticles.SetActive(false);
         }
     }
 }

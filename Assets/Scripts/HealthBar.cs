@@ -24,6 +24,14 @@ public class HealthBar : MonoBehaviour
             if (slider.value < targetHealth)
                 slider.value = targetHealth;
         }
+
+        if (slider.value < targetHealth)
+        {
+            slider.value += drainSpeed * Time.deltaTime;
+
+            if (slider.value > targetHealth)
+                slider.value = targetHealth;
+        }
     }
 
     // Method called by external scripts to set player health

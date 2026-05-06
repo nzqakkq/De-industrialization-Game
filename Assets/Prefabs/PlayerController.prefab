@@ -303,8 +303,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9173649195089236179}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1498.8, y: 1343, z: 7946.5}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0030264796, w: 0.99999547}
+  m_LocalPosition: {x: 5339.013, y: 1013.3, z: 3868}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -312,7 +312,7 @@ Transform:
   - {fileID: 4454268556530071925}
   - {fileID: 5822324586465743625}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.347}
 --- !u!143 &3531136161014858330
 CharacterController:
   m_ObjectHideFlags: 0
@@ -355,8 +355,8 @@ MonoBehaviour:
   gravity: -100
   groundCheck: {fileID: 5822324586465743625}
   checkRadius: 4
-  jumpHeight: 26
-  dashPower: 1000
+  jumpHeight: 29
+  dashPower: 1100
   dashDeceleration: -50
   dashCooldown: 2
   timeSinceDash: 0
@@ -375,7 +375,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   healthBar: {fileID: 0}
   maxHealth: 100
-  malaiseRate: 0.1
+  malaiseRate: 0.3
+  mouseScript: {fileID: 6955849510626789075}
+  movementScript: {fileID: 6038442871433882556}
+  deathCanvas: {fileID: 0}
 --- !u!114 &6896764220282332432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +391,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caab106fb2ac7f0888ffac649f11f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPoint
+  credits: {fileID: 0}
+  UI: {fileID: 0}
+  playerHealth: {fileID: 6168699495207290490}
+  characterMovement: {fileID: 6038442871433882556}
 --- !u!114 &5499440723228713358
 MonoBehaviour:
   m_ObjectHideFlags: 0

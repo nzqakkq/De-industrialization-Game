@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        // Malaise Rate: The player looses health over time as the game progress
+        //Malaise Rate: The player looses health over time as the game progress
         currentHealth -= malaiseRate * Time.deltaTime;
         healthBar.SetHealth(Mathf.Max(currentHealth, 0));
 
@@ -29,6 +29,12 @@ public class PlayerHealth : MonoBehaviour
         {
             KillPlayer();
         }
+    }
+
+    public void SetPlayerHealth(float health)
+    {
+        currentHealth = health;
+        healthBar.SetHealth(currentHealth);
     }
 
 

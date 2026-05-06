@@ -81,4 +81,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd567f8479922ca749f378542b780080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadAcrossScenes
-  gameObject: {fileID: 2755430228591403070}

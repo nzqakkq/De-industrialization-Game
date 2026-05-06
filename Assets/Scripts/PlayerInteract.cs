@@ -31,7 +31,7 @@ public class PlayerInteract : MonoBehaviour
         if (Physics.Raycast(ray, out hit, playerReach))
         {
             // Checks if the object being hit has the "Puzzle" or "Factory" tag
-            if (hit.collider.tag == "Puzzle" || hit.collider.tag == "Factory")
+            if (hit.collider.tag == "Puzzle" || hit.collider.tag == "Factory" || hit.collider.tag == "Health" || hit.collider.tag == "Letter")
             {
                 // Get interactable component on the object
                 Interactable newInteractable = hit.collider.GetComponent<Interactable>();

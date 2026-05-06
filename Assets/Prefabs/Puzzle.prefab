@@ -657,9 +657,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleHandler
   emptyButton: {fileID: 8280666926082537201}
   movementScript: {fileID: 0}
+  playerPoint: {fileID: 0}
   mouseScript: {fileID: 0}
   puzzleCanvas: {fileID: 5730467469634915029}
-  boxParticles: {fileID: 0}
 --- !u!1 &4310314987107707570
 GameObject:
   m_ObjectHideFlags: 0

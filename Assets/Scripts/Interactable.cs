@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Interactable : MonoBehaviour
@@ -8,6 +9,8 @@ public class Interactable : MonoBehaviour
     public GameObject factorySmoke;
     public GameObject factoryBoxParticles;
     public PlayerPoint playerPoint;
+    public PlayerHealth playerHealth;
+    public GameObject letterCanvas;
     Outline outline;
     public string message;
 
@@ -37,6 +40,23 @@ public class Interactable : MonoBehaviour
             this.GetComponent<Outline>().enabled = false;
 
             playerPoint.AddPoint();
+        }
+        else if (tag == "Health")
+        {
+            // Disable the object
+            gameObject.SetActive(false);
+
+            // Add player health
+            playerHealth.SetPlayerHealth(100f);
+        }
+        else if (tag == "Letter")
+        {
+            movementScript.enabled = false;
+            mouseScript.enabled = false;
+
+            //Enable the letter panel
+            letterCanvas.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
